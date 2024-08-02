@@ -55,5 +55,3 @@ This project aims to analyze how seasonal trends affect various metrics of Airbn
 - **Visualizations**: At least 6-8 visualizations, with clear labels with explanations.
 - **Analysis and Conclusion**: A write-up summarizing major findings and implications, supported by statistical analysis and visualizations.
 - **Group Presentation**: A 10-minute presentation covering all aspects of the project.
-
-This proposal outlines a structured approach to analyzing seasonal trends and their impact on Airbnb pricing, aiming to provide valuable insights for both hosts and guests.
