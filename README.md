@@ -61,22 +61,23 @@ This project aims to analyze how seasonal trends affect various metrics of Airbn
 - **Analysis and Conclusion**: A write-up summarizing major findings and implications, supported by statistical analysis and visualizations.
 - **Group Presentation**: A 10-minute presentation covering all aspects of the project.
 
-**Hypotheses**
-H1: There are significant seasonal variations in Airbnb metrics (price, number of reviews, reviews per month, availability).
-H0: There are no significant seasonal variations in Airbnb metrics.
+### Summary of Analysis vs. Hypotheses
 
-**Key ANOVA Test Results**
-Price: P-value = 1.29e-11
-Number of Reviews: P-value = 1.00e-133
-Reviews per Month: P-value = 0.00e+00
-Availability: P-value = 1.17e-136
+#### Hypotheses
+- **H1**: There are significant seasonal variations in Airbnb metrics (price, number of reviews, reviews per month, availability).
+- **H0**: There are no significant seasonal variations in Airbnb metrics.
 
-**Conclusion**
+### Key ANOVA Test Results
+- **Price**: P-value = 1.29e-11
+- **Number of Reviews**: P-value = 1.00e-133
+- **Reviews per Month**: P-value = 0.00e+00
+- **Availability**: P-value = 1.17e-136
+
+### Conclusion
 All p-values are significantly below 0.05, leading us to reject the null hypothesis (H0) for each metric. This confirms that there are significant seasonal variations in Airbnb metrics.
 
-**Implications**
-Price: Hosts can adjust prices seasonally to maximize revenue.
-Number of Reviews: Seasonal trends affect guest review activity.
-Reviews per Month: Guest feedback frequency varies by season.
-Availability: Booking availability changes significantly throughout the year.
-These insights help Airbnb hosts optimize pricing, manage reviews, and plan availability according to seasonal demand patterns.
+### Implications
+- **Price**: Hosts can adjust prices seasonally to maximize revenue.
+- **Number of Reviews**: Seasonal trends affect guest review activity.
+- **Reviews per Month**: Guest feedback frequency varies by season.
+- **Availability**: Booking availability changes significantly throughout the year.
