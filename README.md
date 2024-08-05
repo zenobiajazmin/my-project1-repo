@@ -61,7 +61,7 @@ This project aims to analyze how seasonal trends affect various metrics of Airbn
 - **Analysis and Conclusion**: A write-up summarizing major findings and implications, supported by statistical analysis and visualizations.
 - **Group Presentation**: A 10-minute presentation covering all aspects of the project.
 
-###Hypotheses
+**Hypotheses**
 Hypothesis (H1): There is a significant seasonal variation in the average nightly rental prices, number of reviews, reviews per month, and availability for Airbnb properties.
 
 Null Hypothesis (H0): There is no significant seasonal variation in the average nightly rental prices, number of reviews, reviews per month, and availability for Airbnb properties.
