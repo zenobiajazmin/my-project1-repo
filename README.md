@@ -3,6 +3,7 @@ Project 1
 
 
 
+
 ### Working on manipulating data to change dates to seasons 
 - struggling with a good proper way to sort data in a relevant way for the project
 - Only dates available in the csv for airbnb are 'last reviewed' which only gives us a date of usage for that bnb for that given review not a large amount of stays across the span of a year
@@ -81,3 +82,4 @@ All p-values are significantly below 0.05, confirming significant seasonal varia
 ### Recommendations
 - **For Hosts**: Adjust prices and manage availability seasonally, encourage reviews year-round.
 - **For Guests**: Book during off-peak seasons for better deals and availability, leave reviews to provide feedback.
+
