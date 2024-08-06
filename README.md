@@ -53,12 +53,6 @@ This project aims to analyze how seasonal trends affect various metrics of Airbn
 - **Instructional Team**: Utilize office hours and support sessions for guidance and feedback.
 - **GitHub**: Use GitHub for version control and collaboration.
 
-**Deliverables**:
-- **Completed Analysis**: Uploaded to GitHub with a complete README file.
-- **Visualizations**: At least 6-8 visualizations, with clear labels with explanations.
-- **Analysis and Conclusion**: A write-up summarizing major findings and implications, supported by statistical analysis and visualizations.
-- **Group Presentation**: A 10-minute presentation covering all aspects of the project.
-
 ### Summary of Analysis vs. Hypotheses
 
 #### Hypotheses
