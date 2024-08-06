@@ -67,7 +67,7 @@ This project aims to analyze how seasonal trends affect various metrics of Airbn
 - **H1**: There are significant seasonal variations in Airbnb metrics (price, number of reviews, reviews per month, availability).
 - **H0**: There are no significant seasonal variations in Airbnb metrics.
 
-### Key ANOVA Test Results
+### ANOVA Test Results
 - **Price**: P-value = 1.29e-11
 - **Number of Reviews**: P-value = 1.00e-133
 - **Reviews per Month**: P-value = 0.00e+00
