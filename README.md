@@ -67,17 +67,25 @@ This project aims to analyze how seasonal trends affect various metrics of Airbn
 - **H1**: There are significant seasonal variations in Airbnb metrics (price, number of reviews, reviews per month, availability).
 - **H0**: There are no significant seasonal variations in Airbnb metrics.
 
-### ANOVA Test Results
+#### ANOVA Test Results
 - **Price**: P-value = 1.29e-11
 - **Number of Reviews**: P-value = 1.00e-133
 - **Reviews per Month**: P-value = 0.00e+00
 - **Availability**: P-value = 1.17e-136
 
-### Conclusion
-All p-values are significantly below 0.05, leading us to reject the null hypothesis (H0) for each metric. This confirms that there are significant seasonal variations in Airbnb metrics.
+#### Conclusion
+All p-values are significantly below 0.05, confirming significant seasonal variations in Airbnb metrics.
 
-### Implications
-- **Price**: Hosts can adjust prices seasonally to maximize revenue.
-- **Number of Reviews**: Seasonal trends affect guest review activity.
-- **Reviews per Month**: Guest feedback frequency varies by season.
-- **Availability**: Booking availability changes significantly throughout the year.
+#### Implications
+- **Price**: Hosts can seasonally adjust prices to maximize revenue, with higher prices in peak seasons (Late Summer) and lower in off-peak (Late Winter).
+- **Number of Reviews**: More reviews occur during peak travel seasons.
+- **Reviews per Month**: Feedback frequency peaks in Early and Late Summer, indicating higher guest activity.
+- **Availability**: Availability fluctuates, decreasing during peak travel times and increasing in off-peak seasons.
+
+### Key Findings
+- **Significant Seasonal Variations**: Confirmed across all metrics.
+- **Peak and Off-Peak Seasons**: Prices and reviews per month peak in summer and drop in winter.
+
+### Recommendations
+- **For Hosts**: Adjust prices and manage availability seasonally, encourage reviews year-round.
+- **For Guests**: Book during off-peak seasons for better deals and availability, leave reviews to provide feedback.
