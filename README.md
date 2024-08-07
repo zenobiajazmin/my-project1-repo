@@ -1,7 +1,8 @@
 # my-project1-repo
 Project 1
 
-
+***Filtering out data***
+There was so much prices that were significant outliers outside of the standard deviation that we decided to limit the data set to prices of $350 and below per night; to focus on affordable properties/listings.
 
 ### Working on manipulating data to change dates to seasons 
 - struggling with a good proper way to sort data in a relevant way for the project
