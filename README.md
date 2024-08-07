@@ -1,7 +1,8 @@
 # my-project1-repo
 Project 1
 
-
+***Filtering out data***
+There was so much prices that were significant outliers outside of the standard deviation that we decided to limit the data set to prices of $350 and below per night; to focus on affordable properties/listings.
 
 
 ### Working on manipulating data to change dates to seasons 
@@ -56,30 +57,30 @@ This project aims to analyze how seasonal trends affect various metrics of Airbn
 
 ### Summary of Analysis vs. Hypotheses
 
-#### Hypotheses
+**Hypotheses:**
 - **H1**: There are significant seasonal variations in Airbnb metrics (price, number of reviews, reviews per month, availability).
 - **H0**: There are no significant seasonal variations in Airbnb metrics.
 
-#### ANOVA Test Results
-- **Price**: P-value = 1.29e-11
-- **Number of Reviews**: P-value = 1.00e-133
-- **Reviews per Month**: P-value = 0.00e+00
-- **Availability**: P-value = 1.17e-136
+**ANOVA Test Results:**
+- **Price**: F-value = 42.14, P-value = 5.22e-59. This is statistically significant for price.
+- **Number of Reviews**: F-value = 22.15, P-value = 5.99e-30. This is statistically significant for number of reviews.
+- **Reviews per Month**: F-value = 78.04, P-value = 7.71e-111. This is statistically significant for reviews per month.
+- **Availability**: F-value = 24.05, P-value = 1.07e-32. This is statistically significant for availability.
 
-#### Conclusion
+**Conclusion:**
 All p-values are significantly below 0.05, confirming significant seasonal variations in Airbnb metrics.
 
-#### Implications
+**Implications:**
 - **Price**: Hosts can seasonally adjust prices to maximize revenue, with higher prices in peak seasons (Late Summer) and lower in off-peak (Late Winter).
 - **Number of Reviews**: More reviews occur during peak travel seasons.
 - **Reviews per Month**: Feedback frequency peaks in Early and Late Summer, indicating higher guest activity.
 - **Availability**: Availability fluctuates, decreasing during peak travel times and increasing in off-peak seasons.
 
-### Key Findings
+**Key Findings:**
 - **Significant Seasonal Variations**: Confirmed across all metrics.
 - **Peak and Off-Peak Seasons**: Prices and reviews per month peak in summer and drop in winter.
 
-### Recommendations
+**Recommendations:**
 - **For Hosts**: Adjust prices and manage availability seasonally, encourage reviews year-round.
 - **For Guests**: Book during off-peak seasons for better deals and availability, leave reviews to provide feedback.
 
