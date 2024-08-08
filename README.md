@@ -1,30 +1,21 @@
-# my-project1-repo
-Project 1
+# Analyzing Seasonal Trends and Their Impact on Airbnb Prices
 
-***Filtering out data***
-There was so much prices that were significant outliers outside of the standard deviation that we decided to limit the data set to prices of $350 and below per night; to focus on affordable properties/listings.
+### Team Members
+Bryan, Nebiat, Jazmin
 
-### Working on manipulating data to change dates to seasons 
-- struggling with a good proper way to sort data in a relevant way for the project
-- Only dates available in the csv for airbnb are 'last reviewed' which only gives us a date of usage for that bnb for that given review not a large amount of stays across the span of a year
+### Project Description/Outline
+This project aims to analyze how seasonal trends affect various metrics of Airbnb listings, such as price, number of reviews, reviews per month, and availability. By leveraging the date, we can find insights into seasonal variations and their correlation with Airbnb pricing. The project focuses on identifying patterns and trends that can inform hosts and potential guests about the best times to rent or stay at accommodations property.
 
-**Project Title**: Analyzing Seasonal Trends and Their Impact on Airbnb Prices
-
-**Team Members**: Bryan, Nebiat, Jazmin
-
-**Project Description/Outline**:
-This project aims to analyze how seasonal trends affect various metrics of Airbnb listings, such as price, number of reviews, reviews per month, and availability. By leveraging the date, we can find insights into seasonal variations and their correlation with Airbnb pricing. The project will focus on identifying patterns and trends that can inform hosts and potential guests about the best times to rent or stay at accommodations property.
-
-**Research Questions to Answer**:
+### Research Questions to Answer
 1. How do average nightly rental prices for Airbnb properties vary by season?
 2. How do the number of reviews, reviews per month, and availability change with the seasons?
 3. What is the correlation between average nightly rental prices and other metrics (number of reviews, reviews per month, availability) across different seasons?
 
-**Datasets to Be Used**:
-- **Airbnb Listings Data**: The dataset includes information about Airbnb listings in the USA, focusing on metrics such as price, number of reviews, reviews per month, and availability.
+### Datasets to Be Used
+- **Airbnb Listings Data**: Information about Airbnb listings in the USA, focusing on metrics such as price, number of reviews, reviews per month, and availability.
 - **Seasonal Information**: Derived from the date in the Airbnb dataset.
 
-**Rough Breakdown of Tasks**:
+### Rough Breakdown of Tasks
 1. **Data Loading and Cleaning**:
    - Load the Airbnb dataset.
    - Filter and clean the dataset as needed.
@@ -49,11 +40,6 @@ This project aims to analyze how seasonal trends affect various metrics of Airbn
    - Prepare a formal presentation covering the research questions, data exploration, analysis process, visualizations, and conclusions.
    - Ensure the presentation is clear, engaging, and professionally formatted.
 
-**Support and Resources**:
-- **APIs**: For potential future extensions, consider using APIs for additional data (e.g., weather data, event data).
-- **Instructional Team**: Utilize office hours and support sessions for guidance and feedback.
-- **GitHub**: Use GitHub for version control and collaboration.
-
 ### Summary of Analysis vs. Hypotheses
 
 **Hypotheses:**
@@ -69,16 +55,51 @@ This project aims to analyze how seasonal trends affect various metrics of Airbn
 **Conclusion:**
 All p-values are significantly below 0.05, confirming significant seasonal variations in Airbnb metrics.
 
-**Implications:**
-- **Price**: Hosts can seasonally adjust prices to maximize revenue, with higher prices in peak seasons (Late Summer) and lower in off-peak (Late Winter).
-- **Number of Reviews**: More reviews occur during peak travel seasons.
-- **Reviews per Month**: Feedback frequency peaks in Early and Late Summer, indicating higher guest activity.
-- **Availability**: Availability fluctuates, decreasing during peak travel times and increasing in off-peak seasons.
+### Findings/Analysis
+**Average Availability and Price by Detailed Season:**
+![Average Availability and Price by Detailed Season](Images/Average%20Availability%20and%20Price%20by%20Detailed%20Season.png)
+- **Analysis**: Availability peaks in Early Summer, indicating high demand. Prices are highest in Late Summer, reflecting peak season pricing.
+- **Implications**: Hosts can optimize revenue by adjusting prices during peak seasons and ensuring availability during high-demand periods.
 
-**Key Findings:**
-- **Significant Seasonal Variations**: Confirmed across all metrics.
-- **Peak and Off-Peak Seasons**: Prices and reviews per month peak in summer and drop in winter.
+**Average Number of Reviews and Price by Detailed Season:**
+![Average Number of Reviews and Price by Detailed Season](Images/Average%20Number%20of%20Reviews%20&%20Price%20by%20Detailed%20Season.png)
+- **Analysis**: Number of reviews peaks in Late Summer, indicating higher guest activity during this period. Prices also peak in Late Summer.
+- **Implications**: Encouraging reviews during peak seasons can help improve property visibility and attract more guests.
 
-**Recommendations:**
+**Average Price by Detailed Season:**
+![Average Price by Detailed Season](Images/Average%20Price%20by%20Detailed%20Season.png)
+- **Analysis**: Prices peak in Late Summer, with lower prices in Late Winter.
+- **Implications**: Guests can find better deals in off-peak seasons, while hosts can maximize revenue during peak seasons.
+
+**Average Reviews per Month and Price by Detailed Season:**
+![Average Reviews per Month and Price by Detailed Season](Images/Average%20Reviews%20per%20Month%20&%20Price%20by%20Detailed%20Season.png)
+- **Analysis**: Reviews per month peak in Early Fall, with prices peaking in Late Summer.
+- **Implications**: Higher guest feedback during Early Fall can help hosts improve their services and attract more guests in subsequent seasons.
+
+**Box and Whiskers Plot of Average Prices by Season:**
+![Box and Whiskers Plot of Average Prices by Season](Images/box%20plot%20of%20average%20prices%20by%20season.png)
+- **Analysis**:
+  - **Summer**: Highest median prices and greatest variability, indicating peak demand.
+  - **Spring and Fall**: Moderate median prices, with slight increases during Late Spring and Early Fall.
+  - **Winter**: Lowest and most consistent prices, reflecting reduced demand.
+  - **Outliers**: Likely represent luxury and premium listings.
+- **Implications**:
+  - **Hosts**: Understanding factors leading to outliers can help optimize pricing strategies.
+  - **Guests**: Be aware of outliers representing higher-than-average prices and consider alternative dates/locations for better rates.
+  - **Investors**: Identify high-revenue opportunities by analyzing outliers and understanding underlying causes of price surges.
+
+### Recommendations
 - **For Hosts**: Adjust prices and manage availability seasonally, encourage reviews year-round.
 - **For Guests**: Book during off-peak seasons for better deals and availability, leave reviews to provide feedback.
+
+### Filtering Out Data
+There were significant outliers outside of the standard deviation, so we limited the data set to prices of $350 and below per night to focus on affordable properties/listings.
+
+### Working on Manipulating Data to Change Dates to Seasons
+- Struggled to sort data in a relevant way for the project.
+- Only dates available in the CSV for Airbnb are 'last reviewed,' which only gives us a date of usage for that BNB for that given review, not a large amount of stays across the span of a year.
+
+### Support and Resources
+- **APIs**: For potential future extensions, consider using APIs for additional data (e.g., weather data, event data).
+- **Instructional Team**: Utilize office hours and support sessions for guidance and feedback.
+- **GitHub**: Use GitHub for version control and collaboration.
