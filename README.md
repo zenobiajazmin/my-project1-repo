@@ -77,6 +77,7 @@ All p-values are significantly below 0.05, confirming significant seasonal varia
 - **Implications**: Higher guest feedback during Early Fall can help hosts improve their services and attract more guests in subsequent seasons.
 
 **Box and Whiskers Plot of Average Prices by Season:**
+
 ![Box and Whiskers Plot of Average Prices by Season](Images/box%20plot%20of%20average%20prices%20by%20season.png)
 - **Analysis**:
   - **Summer**: Highest median prices and greatest variability, indicating peak demand.
@@ -87,6 +88,18 @@ All p-values are significantly below 0.05, confirming significant seasonal varia
   - **Hosts**: Understanding factors leading to outliers can help optimize pricing strategies.
   - **Guests**: Be aware of outliers representing higher-than-average prices and consider alternative dates/locations for better rates.
   - **Investors**: Identify high-revenue opportunities by analyzing outliers and understanding underlying causes of price surges.
+ 
+**Histogram of Average Prices**
+
+![Histogram of Average Prices](Images/Histogram%20of%20Average%20Prices.png)
+
+The histogram above represents the distribution of nightly rental costs across different seasons. Each color represents a different season, allowing us to observe how prices vary throughout the year. Key observations include:
+
+- The majority of rentals are priced between $100 and $200 per night.
+- There are noticeable peaks in the distribution during the summer months, suggesting higher demand and possibly higher prices.
+- Winter months tend to have lower average prices, likely due to reduced demand.
+
+This information is crucial for stakeholders in the hospitality industry, as it highlights seasonal trends in pricing, which can be used to optimize pricing strategies and maximize occupancy rates.
 
 ### Recommendations
 - **For Hosts**: Adjust prices and manage availability seasonally, encourage reviews year-round.
