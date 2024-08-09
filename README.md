@@ -119,9 +119,9 @@ The scatter plot illustrates the relationship between price and the number of re
 ### Filtering Out Data
 There were significant outliers outside of the standard deviation, so we limited the data set to prices of $350 and below per night to focus on affordable properties/listings.
 
-### Working on Manipulating Data to Change Dates to Seasons
-- Struggled to sort data in a relevant way for the project.
+### Limitations with Data manipulation
 - Only dates available in the CSV for Airbnb are 'last reviewed,' which only gives us a date of usage for that BNB for that given review, not a large amount of stays across the span of a year.
+- Massive amount of price outliers for each listing. Ranging from $20 to $12,000 - Limiting price to $350 a night and below was important for data relevance
 
 ### Support and Resources
 - **APIs**: For potential future extensions, consider using APIs for additional data (e.g., weather data, event data).
