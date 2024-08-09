@@ -88,7 +88,7 @@ All p-values are significantly below 0.05, confirming significant seasonal varia
   - **Hosts**: Understanding factors leading to outliers can help optimize pricing strategies.
   - **Guests**: Be aware of outliers representing higher-than-average prices and consider alternative dates/locations for better rates.
   - **Investors**: Identify high-revenue opportunities by analyzing outliers and understanding underlying causes of price surges.
- 
+
 **Histogram of Average Prices**
 
 ![Histogram of Average Prices](Images/Histogram%20of%20Average%20Prices.png)
@@ -100,6 +100,17 @@ The histogram above represents the distribution of nightly rental costs across d
 - Winter months tend to have lower average prices, likely due to reduced demand.
 
 This information is crucial for stakeholders in the hospitality industry, as it highlights seasonal trends in pricing, which can be used to optimize pricing strategies and maximize occupancy rates.
+
+**Scatter Plot of Price vs. Number of Reviews by Season:**
+
+![Scatter Plot of Price vs. Number of Reviews by Season](Images/Scatterplot%20Price%20vs%20Number%20of%20Reviews.png)
+
+The scatter plot illustrates the relationship between price and the number of reviews across different seasons. Key observations include:
+
+- **Price Range:** Most listings are priced between $50 and $200 per night.
+- **Review Counts:** Higher review counts are seen in Late Summer and Early Fall, indicating increased guest activity.
+- **Winter Seasons:** Lower review counts in Early and Late Winter suggest lower demand.
+- **No Correlation:** There is no clear correlation between the number of reviews and the price.
 
 ### Recommendations
 - **For Hosts**: Adjust prices and manage availability seasonally, encourage reviews year-round.
