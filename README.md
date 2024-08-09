@@ -103,7 +103,7 @@ This information is crucial for stakeholders in the hospitality industry, as it 
 
 **Scatter Plot of Price vs. Number of Reviews by Season:**
 
-![Scatter Plot of Price vs. Number of Reviews by Season](Images/Scatterplot%20Price%20vs%20Number%20of%20Reviews.png)
+![Scatter Plot of Price vs. Number of Reviews by Season](Images/Scatterplot%20Price%20vs%20number%20of%20reviews.png)
 
 The scatter plot illustrates the relationship between price and the number of reviews across different seasons. Key observations include:
 
