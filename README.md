@@ -38,7 +38,6 @@ This project aims to analyze how seasonal trends affect various metrics of Airbn
 
 6. **Presentation**:
    - Prepare a formal presentation covering the research questions, data exploration, analysis process, visualizations, and conclusions.
-   - Ensure the presentation is clear, engaging, and professionally formatted.
 
 ### Summary of Analysis vs. Hypotheses
 
